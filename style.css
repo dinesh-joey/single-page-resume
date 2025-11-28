@@ -1,0 +1,272 @@
+/*
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 1.5rem;
+}
+
+section{
+    height: 100vh;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+header, footer{
+   
+    color: whitesmoke;
+    text-align: center;
+    height: 70px;
+    padding: 1rem;
+}
+
+header{
+    position: sticky;
+    top: 0px;
+    font-size: 3rem;
+}
+
+footer{
+    position: sticky;
+    bottom: 0px;
+    font-size: 2rem;
+    background-color: black;
+    width: 100%;
+}
+
+a{
+    color: whitesmoke;
+}
+
+button{
+    background-color: black;
+    color: whitesmoke;
+    font-size: inherit;
+    position: fixed;
+    top: 30%;
+    left: 0px;
+    z-index: 1;
+    
+} 
+*/
+
+
+
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6rem;
+    background-color: whitesmoke;
+    color: black;
+}
+
+
+a{
+    color: #007bff;
+    text-decoration: none;
+}
+
+
+a:hover{
+    text-decoration: underline;
+    background-color: #000;
+    color: white;
+}
+
+
+ul{
+    list-style: none;
+}
+
+
+
+header{
+    background: #333;
+    color: white;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+}
+
+
+.logo{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 0 2px;
+    float: left;
+}
+
+
+nav ul{
+    float: right;
+    padding: 0 2px;
+}
+
+
+nav ul li{
+    display: inline;
+    margin-left: 20px;
+}
+
+
+nav ul li a{
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition-duration: 0.2s;
+}
+
+
+nav ul li a:hover{
+    color: #007bff;
+    text-decoration: none;
+}
+
+
+
+header::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+main{
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+
+section{
+    padding: 60px 0;
+}
+
+
+h1, h2{
+    color: #222;
+    margin-bottom: 20px;
+}
+
+
+#about{
+    text-align: center;
+    padding-top: 80px;
+}
+
+
+#about h1{
+    font-size: 2.5rem;
+}
+
+
+.tagline{
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+
+.bio p{
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+    text-align: justify;
+}
+
+
+.skills-list li{
+    background: #e9ecef;
+    display: inline-block;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+
+.job-entry{
+    border-left: 3px solid #007bff;
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+
+
+.duration{
+    font-style: italic;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+
+.job-entry ul{
+    list-style: disc;
+    margin-left: 20px;
+}
+
+
+.contact-info li{
+    margin-bottom: 10px;
+}
+
+
+footer{
+    text-align: center;
+    padding: 20px 0;
+    background: #333;
+    color: whitesmoke;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
